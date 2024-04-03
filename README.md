@@ -1,6 +1,9 @@
 # Vue3-TS-Template
 
+> 前言：此模板搭建，来源于[SmallTeddy vue3前端新手项目指北系列文章](https://juejin.cn/column/7342861726001315891)
+
 ## 项目说明
+
 
 - 项目由 vue3 + vite + vue-router + element-plus + sass + ts 搭建
 - 采用 unplugin-auto-import 和 unplugin-vue-components 做自动导入
