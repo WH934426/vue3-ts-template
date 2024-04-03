@@ -1,9 +1,31 @@
-# Vue 3 + TypeScript + Vite
+# Vue3-TS-Template
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## 项目说明
 
-## Recommended Setup
+- 项目由 vue3 + vite + vue-router + element-plus + sass + ts 搭建
+- 采用 unplugin-auto-import 和 unplugin-vue-components 做自动导入
+- vue 等相关生命周期可直接使用
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+### 安装
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+- 采用pnpm进行node包管理
+- `pnpm install` 安装依赖
+- `pnpm run dev` 运行开发环境
+- `pnpm run build` 打包发布
+
+### 资源引入顺序
+
+- 第一级: vue 相关引入(放在最前面)、第三方插件的js、css
+- 第二级: 组件引入
+- 第三级: 接口 api、store、hooks、utils、私有方法
+
+### [命名规范](./docs/name-convention.md ':include')
+
+### [css 规范](./docs/css-name.md ':include')
+
+### [ts 规范](./docs/ts-noem.md ':include')
+
+### [git 规范](./docs/git-noem.md ':include')
+
+### [插件和库](./docs/plugin-library.md ':include')
+
