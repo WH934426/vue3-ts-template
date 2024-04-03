@@ -15,7 +15,8 @@
     "vite-plugin-svg-icons": "^2.0.1",
     "vite-plugin-top-level-await": "^1.4.1",
     "vite-plugin-vue-setup-extend": "^0.4.0",
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.3",
